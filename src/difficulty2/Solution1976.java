@@ -27,7 +27,7 @@ public class Solution1976 {
             }
             if(minutes>=60){
                 hour+=1;
-                minutes -= 60;
+                minutes -=60;
             }
             bw.write("#" + i + " " + hour +" "+ minutes+"\n");
             hour=0;

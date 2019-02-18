@@ -97,11 +97,11 @@ public class Solution1224 {
         else if (str.equals("+") || str.equals("-")) return 1;
         else if (str.equals("*") || str.equals("/")) return 2;
         return -1;
-    }
+}
 
     static private boolean isOperator(String str) {
-        if (str.equals("+") || str.equals("-") || str.equals("*") || str.equals("/") || str.equals("(") || str.equals(")"))
-            return true;
-        return false;
+            if (str.equals("+") || str.equals("-") || str.equals("*") || str.equals("/") || str.equals("(") || str.equals(")"))
+                return true;
+            return false;
     }
 }

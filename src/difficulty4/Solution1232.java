@@ -21,7 +21,7 @@ public class Solution1232 {
             data = new String[N+1];
             left = new int[N+1];
             right = new int[N+1];
-            queue = new LinkedList();
+            queue = new LinkedList<>();
             for(int j=0; j<N; j++){
                 String[] input = br.readLine().split(" ");
                 int index = Integer.parseInt(input[0]);
@@ -32,6 +32,9 @@ public class Solution1232 {
                 }
             }
             postOrder(1);
+            while(!queue.isEmpty()){
+                System.out.print(queue.poll() + " ");
+            }
             printSum();
             bw.write("#" + i + " " + stack.pop()+"\n");
             i++;
@@ -49,28 +52,32 @@ public class Solution1232 {
         while(!queue.isEmpty()){
             String temp = queue.poll();
             int num1, num2;
-            switch (temp){
-                case "+":
-                    num2 = stack.pop();
-                    num1 = stack.pop();
-                    stack.push(num1+num2);
-                    break;
-                case "-":
-                    num2 = stack.pop();
-                    num1 = stack.pop();
-                    stack.push(num1-num2);
-                    break;
-                case "*":
-                    num2 = stack.pop();
-                    num1 = stack.pop();
-                    stack.push(num1*num2);
-                    break;
-                case "/":
-                    num2 = stack.pop();
-                    num1 = stack.pop();
-                    stack.push(num1/num2);
-                    break;
-                    default : stack.add(Integer.parseInt(temp));
+            try {
+                switch (temp) {
+                    case "+":
+                        num2 = stack.pop();
+                        num1 = stack.pop();
+                        stack.push(num1 + num2);
+                        break;
+                    case "-":
+                        num2 = stack.pop();
+                        num1 = stack.pop();
+                        stack.push(num1 - num2);
+                        break;
+                    case "*":
+                        num2 = stack.pop();
+                        num1 = stack.pop();
+                        stack.push(num1 * num2);
+                        break;
+                    case "/":
+                        num2 = stack.pop();
+                        num1 = stack.pop();
+                        stack.push(num1 / num2);
+                        break;
+                    default:
+                        stack.add(Integer.parseInt(temp));
+                }
+            }catch(ArithmeticException e){
             }
         }
     }

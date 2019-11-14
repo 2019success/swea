@@ -32,6 +32,5 @@ public class Solution1204 {
             i++;
         }
         bw.close();
-        
     }
 }

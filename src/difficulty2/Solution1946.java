@@ -26,6 +26,7 @@ public class Solution1946 {
             result="";
             i++;
         }
+        
         bw.close();
     }
 }

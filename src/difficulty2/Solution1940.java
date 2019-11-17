@@ -38,6 +38,7 @@ public class Solution1940 {
             nowSpeed=0;
             i++;
         }
+        
         bw.close();
     }
 

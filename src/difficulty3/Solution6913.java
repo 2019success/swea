@@ -29,6 +29,7 @@ public class Solution6913 {
             bw.write("#" + i + " " + count + " " + maxScore +"\n");
             i++;
         }
+        
         bw.close();
     }
 }

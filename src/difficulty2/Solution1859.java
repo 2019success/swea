@@ -33,6 +33,7 @@ public class Solution1859 {
             max=0;
             i++;
         }
+        
         bw.close();
     }
 }

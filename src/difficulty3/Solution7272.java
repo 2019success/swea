@@ -30,6 +30,7 @@ public class Solution7272 {
             else if(temp.charAt(i)=='B') tmp = tmp.concat("2");
             else tmp = tmp.concat("0");
         }
+        
         return tmp;
     }
 }

@@ -27,6 +27,7 @@ public class Solution1945 {
             bw.write("\n");
             i++;
         }
+        
         bw.close();
     }
 }

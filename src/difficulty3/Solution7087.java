@@ -24,8 +24,7 @@ public class Solution7087 {
             }
             bw.write("#" + i + " " + count+"\n");
             i++;
-        }
-        
+        }  
         bw.close();
     }
 }

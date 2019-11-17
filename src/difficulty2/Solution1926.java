@@ -28,6 +28,7 @@ public class Solution1926 {
         for(int i=0; i<number.length; i++){
             bw.write(number[i]+" ");
         }
+        
         bw.close();
     }
 }

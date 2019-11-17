@@ -16,6 +16,7 @@ public class Solution1928 {
             bw.write("#" + i + " " + strDecode+"\n");
             i++;
         }
+
         bw.close();
     }
 }

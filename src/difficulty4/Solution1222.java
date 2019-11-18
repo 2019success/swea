@@ -42,6 +42,7 @@ public class Solution1222 {
             bw.write("#" + i + " " + (stack.pop()-48)+"\n");
             i++;
         }
+        
         bw.close();
     }
 }

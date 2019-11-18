@@ -67,6 +67,7 @@ public class Solution1224 {
                     }
                     break;
                 case "*":
+                    
                 case "/":
                     if (stack.isEmpty()) stack.add(temp);
                     else {

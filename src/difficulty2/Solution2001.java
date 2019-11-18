@@ -39,7 +39,6 @@ public class Solution2001 {
             }
             bw.write("#"+t+" "+res+"\n");
         }
-
         bw.close();
     }
 }

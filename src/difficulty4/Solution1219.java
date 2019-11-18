@@ -31,6 +31,7 @@ public class Solution1219 {
             bw.write("#" + T + " " + result + "\n");
             k++;
         }
+        
         bw.close();
     }
     private static void bfs(int num){

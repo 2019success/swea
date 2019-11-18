@@ -45,6 +45,7 @@ public class Solution1210 {
             }
             i++;
         }
+        
         bw.close();
     }
 }

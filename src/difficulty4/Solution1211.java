@@ -50,6 +50,7 @@ public class Solution1211 {
             bw.write("#" + T + " " + result + "\n");
             i++;
         }
+        
         bw.close();
     }
 }

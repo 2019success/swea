@@ -23,6 +23,7 @@ public class Solution1984 {
             sum=0;
             i++;
         }
+        
         bw.close();
     }
 }

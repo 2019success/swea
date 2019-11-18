@@ -26,6 +26,7 @@ public class Solution1218 {
             stack.clear();
             i++;
         }
+        
         bw.close();
     }
 }

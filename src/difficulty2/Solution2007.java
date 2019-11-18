@@ -23,6 +23,7 @@ public class Solution2007 {
             bw.write("#" + i +" " + strLength+"\n");
             i++;
         }
+        
         bw.close();
     }
 }

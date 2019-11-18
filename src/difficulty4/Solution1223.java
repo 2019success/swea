@@ -62,6 +62,7 @@ public class Solution1223 {
             bw.write("#" + i + " " + operator.pop()+"\n");
             i++;
         }
+        
         bw.close();
     }
 }

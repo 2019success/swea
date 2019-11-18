@@ -21,6 +21,7 @@ public class Solution1989 {
             reverseStr="";
             i++;
         }
+        
         bw.close();
     }
 }

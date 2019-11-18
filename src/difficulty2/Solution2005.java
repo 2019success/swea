@@ -27,6 +27,7 @@ public class Solution2005 {
             }
             i++;
         }
+        
         bw.close();
     }
 }

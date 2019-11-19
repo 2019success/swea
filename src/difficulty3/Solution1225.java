@@ -40,6 +40,7 @@ public class Solution1225 {
             bw.write("\n");
             i++;
         }
+        
         bw.close();
     }
 }

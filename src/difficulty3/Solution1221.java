@@ -32,6 +32,7 @@ public class Solution1221 {
                     sb.append(strNumber[j]+" ");
                 }
             }
+            
             System.out.println(sb);
             i++;
         }

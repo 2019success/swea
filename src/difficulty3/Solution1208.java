@@ -44,6 +44,7 @@ public class Solution1208 {
             bw.write("#" + i + " " + (array[array.length-1]-array[0])+"\n");
             i++;
         }
+        
         bw.close();
     }
 }

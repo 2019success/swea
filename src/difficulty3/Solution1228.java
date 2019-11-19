@@ -38,6 +38,7 @@ public class Solution1228 {
             bw.write("\n");
             i++;
         }
+        
         bw.close();
     }
 }

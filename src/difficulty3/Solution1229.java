@@ -46,6 +46,7 @@ public class Solution1229 {
             bw.write("\n");
             i++;
         }
+        
         bw.close();
     }
 }

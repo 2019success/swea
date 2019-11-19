@@ -23,4 +23,5 @@ public class Solution1217 {
             return 1;
         return number * numberSqrt(number, count-1);
     }
+    
 }

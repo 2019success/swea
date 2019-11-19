@@ -48,6 +48,7 @@ public class Solution1215 {
             bw.write("#" + i + " " + result+"\n");
             i++;
         }
+        
         bw.close();
     }
 }

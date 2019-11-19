@@ -27,6 +27,7 @@ public class Solution1213 {
             bw.write("#" + testNumber + " " + result+ "\n");
             i++;
         }
+        
         bw.close();
     }
 }

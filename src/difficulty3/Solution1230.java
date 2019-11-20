@@ -52,6 +52,7 @@ public class Solution1230 {
             passwordArray.clear();
             i++;
         }
+        
         bw.close();
     }
 }

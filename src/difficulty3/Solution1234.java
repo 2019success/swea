@@ -35,6 +35,7 @@ public class Solution1234 {
             bw.write("\n");
             i++;
         }
+        
         bw.close();
     }
 }

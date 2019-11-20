@@ -71,6 +71,7 @@ public class Solution1240 {
             bw.write("#" + i + " " + result+"\n");
             i++;
         }
+        
         bw.close();
     }
 }
